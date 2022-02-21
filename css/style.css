@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #5FC0CE;
+}
+
+.contacts__options {
+    width: 600px;
+    background-color: #006C51;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input, button {
+    width: 400px;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 7px;
+}
+
+button {
+    background-color: aquamarine;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact__button__add {
+    font-size: 18px;
+    width: 200px;
+    border-radius: 7px;
+}
+
+.contact__item {
+    width: 600px;
+    background-color: #00A67C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 18px;
+    padding-top: 5px;
+    color: #FFFF73;
+}
+
+.contact__item__delete,
+.contact__item__edit,
+.contact__item__save {
+    width: 120px;
+    margin: 10px 5px;
+}
+
+.color {
+    color: rgb(41, 40, 40);
+    font-weight: bold;
+}
